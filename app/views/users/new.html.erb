@@ -1,17 +1,6 @@
 <%= form_for(@user) do |f| %>  
-  <div class="field"> 
-    <%= f.label :name %><br> 
-    <%= f.text_area :name %> 
-  </div> 
-  <div class="field">
-  	<%= f.label :type_of_user %><br> 
-    <%= f.text_area :type_of_user %>
-  </div>
-  <div class="field">
-  	<%= f.label :password %><br> 
-    <%= f.password_field :password %>
-  </div>
-  <div class="actions"> 
-    <%= f.submit "Signup" %> 
-  </div> 
+  <%= f.text_field :name, :placeholder => "Name(Unique Username)" %> 
+  <%= f.password_field :password, :placeholder => "Password(min 8 characters)" %> 
+  <%= f.select :type_of_users, ['Admin', 'Student']%>
+  <%= f.submit "Signup", class: "btn-submit" %>
 <% end %>
