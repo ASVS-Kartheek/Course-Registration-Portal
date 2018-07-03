@@ -10,7 +10,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_04_25_041902) do
+ActiveRecord::Schema.define(version: 2018_04_25_133523) do
+
+  create_table "courses", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "name"
+    t.integer "admin"
+    t.integer "credits"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "registrations", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.bigint "c_id"
+    t.bigint "s_id"
+    t.integer "grade"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["c_id"], name: "fk_rails_966e182f69"
+    t.index ["s_id"], name: "fk_rails_0870e55188"
+  end
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
@@ -20,4 +38,6 @@ ActiveRecord::Schema.define(version: 2018_04_25_041902) do
     t.string "type_of_users"
   end
 
+  add_foreign_key "registrations", "courses", column: "c_id"
+  add_foreign_key "registrations", "users", column: "s_id"
 end
