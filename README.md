@@ -6,16 +6,16 @@ This is a web application that is similar in functionality to ERP website of BIT
 ## Functionality
 There are 2 types of users:
 * Admin
-  > Admin can create courses
-  > Give grades to students
-  > Declare the deadlinbe for dropping the course
+  > * Admin can create courses
+  > * Give grades to students
+  > * Declare the deadlinbe for dropping the course
   
 * Students
-  > Register to any course that is created by an instructor/admin
-  > Drop/Withdraw from a course before the deadline
-  > Study properly :P
-  > Check their grades
-  > A cumulative grade for all the semesters can be checked
+  > * Register to any course that is created by an instructor/admin
+  > * Drop/Withdraw from a course before the deadline
+  > * Study properly :P
+  > * Check their grades
+  > * A cumulative grade for all the semesters can be checked
   
 ### Both types of users have passwords that will be encrypted using SHA-256, password should have atleast 1 capital letter, 1 special character and length atleast 8 characters.
 
