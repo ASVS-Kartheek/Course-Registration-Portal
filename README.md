@@ -19,7 +19,7 @@ There are 2 types of users:
   
 ### Both types of users have passwords that will be encrypted using SHA-256, password should have atleast 1 capital letter, 1 special character and length atleast 8 characters.
 
-## GUI SCREENS
+## GUI Screens
 * User Login Screen
 * Creation of Course
 * Description of Course
@@ -31,7 +31,7 @@ There are 2 types of users:
 * Create a User
 * Update Password
 
-## TECHNOLOGIES USED
+## Technology Stack
 * Ruby on Rails Framework - It is a robust framework which also used in building scalable websites like TWITTER and familiarity with Ruby as a language.
 * MySQL Database
 * Default Ruby on Rails server - It is default server which is integrated with Rails Framework
