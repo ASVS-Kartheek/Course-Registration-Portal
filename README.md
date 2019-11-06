@@ -1,7 +1,7 @@
 # Course Registration Portal
 
 ## Domain Description
-This is a web application that is similar in functionality to ERP website of BITS Hyderabad Campus, which is very helpful in registration process of the semester, where students can register themselves to a course and instructors can give them grade and students can check their comprehensiver grade.
+This is a web portal for course registration, which is helpful in registration process of the semester, where students can register themselves to a course and instructors can give them grade and students can check their comprehensive grade.
 
 ## Functionality
 There are 2 types of users:
@@ -13,7 +13,7 @@ There are 2 types of users:
 * Students
   > * Register to any course that is created by an instructor/admin
   > * Drop/Withdraw from a course before the deadline
-  > * Study properly :P
+  > * Study properly :stuck_out_tongue:
   > * Check their grades
   > * A cumulative grade for all the semesters can be checked
   
