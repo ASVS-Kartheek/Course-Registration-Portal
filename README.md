@@ -1,4 +1,4 @@
-# README
+# Course Registration Portal
 
 ## Domain Description
 This is a web application that is similar in functionality to ERP website of BITS Hyderabad Campus, which is very helpful in registration process of the semester, where students can register themselves to a course and instructors can give them grade and students can check their comprehensiver grade.
